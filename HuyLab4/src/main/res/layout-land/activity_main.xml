@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HuyActivity11"
-    android:background="@color/light_blue">
+    android:background="@color/light_yellow">
 
     <TextView
         android:layout_width="wrap_content"
@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textColor="@color/red"
+        android:textColor="@color/green"
         android:textStyle="bold"
         android:textSize="24sp"/>
 
