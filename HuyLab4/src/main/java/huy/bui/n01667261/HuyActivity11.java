@@ -34,7 +34,7 @@ public class HuyActivity11 extends AppCompatActivity {
                                 if (!inputText.isEmpty()) {
                                     try {
                                         long dataAsLong = Long.parseLong(inputText);
-                                        intent.putExtra("EXTRA_NUMBER_DATA", dataAsLong);
+                                        intent.putExtra("NUMBER_DATA", dataAsLong);
                                     } catch (NumberFormatException e) {
                                         e.printStackTrace();
                                     }
