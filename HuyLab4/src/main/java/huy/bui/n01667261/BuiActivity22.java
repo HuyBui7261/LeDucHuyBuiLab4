@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class BuiActivity22 extends AppCompatActivity {
+public class BuiActivity22 extends BaseMenuActivity {
 
     private String logValueToPrint = "No data received";
     private final int[] imageResources = {

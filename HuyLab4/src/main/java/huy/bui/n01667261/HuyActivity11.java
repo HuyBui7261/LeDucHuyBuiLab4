@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.snackbar.Snackbar;
 
-public class HuyActivity11 extends AppCompatActivity {
+public class HuyActivity11 extends BaseMenuActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

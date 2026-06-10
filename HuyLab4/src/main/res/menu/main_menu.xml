@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_dial"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="@string/menu_dial"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_exit"
+        android:title="@string/menu_exit"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/menu_help"
+        app:showAsAction="never" />
+</menu>
